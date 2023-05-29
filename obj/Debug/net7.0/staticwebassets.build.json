@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xd9sTg0QEUcN/o4YnXPSFFMegYNZLMUzFXPhPl4fz3U=",
+  "Hash": "pBnHc//yBMsWp738jU9cweDRF/baoAtZNszivWbhu1g=",
   "Source": "TP05",
   "BasePath": "_content/TP05",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\saw.png",
+      "SourceId": "TP05",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/TP05",
+      "RelativePath": "img/saw.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\saw.png"
     },
     {
       "Identity": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\js\\site.js",
