@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <p>hola</p>
+    <h1>Bienvenido al primer desafio</h1>
+    <h4>Te dare un acertijo que deberas resolver</h4>
+    <form method="post" action='@Url.Action("Habitacion")'>
+        <p>No se puede ver ni se puede sentir, este ocupa todos los espacios vacíos. No se puede oler ni se puede oír, está detrás de los astros, y está al pie de las colinas, llega primero y se queda; mata risas y acaba vidas. ¿Que soy?</p>
+        <select name="opcioncorrecta" >
+        <option> </option>
+        <option>La oscuridad</option>
+        <option>El silencio</option>
+        <option>La muerte</option>
+        <option>La enfermedad</option>
+        </select>
+        <input type="submit">
+    </form>
 </body>
 </html>

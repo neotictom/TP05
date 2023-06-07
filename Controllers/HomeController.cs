@@ -21,7 +21,7 @@ public class HomeController : Controller
         return View();
     }
     public IActionResult Comenzar(){
-        return View("Habitacion1");
+        return View("Habitacion3");
     }
     public IActionResult Habitacion(int sala, int clave){
         return View();
