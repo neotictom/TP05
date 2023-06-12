@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y/Xp62tDonQQvp1O5Khonq/rsj4BvcIu6gC1l7FH0Ow=",
+  "Hash": "9NL1YSly80yeLwbfbHHiGGHGLRpT3qmQYWZoQQd2vZo=",
   "Source": "TP05",
   "BasePath": "_content/TP05",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\acertijo2.jpeg",
+      "SourceId": "TP05",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/TP05",
+      "RelativePath": "img/acertijo2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\acertijo2.jpeg"
     },
     {
       "Identity": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\saw.png",
