@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+    <audio src="~/audio/audiofondo.mp3" autoplay="autoplay" loop="loop"></audio>
     <h1>Segundo desafio</h1>
-    <img src="~/img/acertijo2.jpeg" height="400px" width="auto">
-    <form action='@Url.Action("Habitacion")'>
+    <center><img src="~/img/acertijo2.jpeg" height="400px" width="auto"></center>
+    <form method="post" action='@Url.Action("Habitacion","Home")'>
     <p>A cuatro prisioneros se le da la opción de salir de la cárcel si adivinan el color del sombrero que llevan puesto. Están en fila, mirando todos hacia la misma dirección. Al cuarto lo separa un muro por lo que el tercer y cuarto hombre no pueden ver a nadie. Se les dice que hay dos sombreros negros y dos blancos.
     </p><p>Tienen algunas normas:</p>
 <ol>
@@ -18,16 +19,21 @@
     <li>No pueden quitarse el sombrero en ningún momento. </li>
 </ol>
     <p>Si todos siguen las normas, ¿cuál es el primero en hablar?</p>
-    <select name="opcioncorrecta" >
+    <select name="clave">
+        
         <option> </option>
         <option>El primero</option>
         <option>El segundo</option>
         <option>El tercero</option>
         <option>El cuarto</option>
         </select>
+        <input type="hidden" name="sala" value="2">
         <input type="submit">
     </form>
      <button onclick="alert('Es un numero par')"> Pista 1 </button>
+     <button onclick="alert('Se encuentra atras de la puerta')"> Pista 2 </button>
+     <button onclick="alert('Es un numero par')"> Pista 3 </button>
+     
 </body>
 
 </html>

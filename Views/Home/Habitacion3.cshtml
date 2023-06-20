@@ -7,44 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <form action='@Url.Action("Habitacion")'>
-   <p> En una calle hay cinco casas, cada una de un color distinto. En cada casa vive una persona de distinta nacionalidad. Cada dueño bebe un único tipo de bebida, fuma una sola marca de cigarrillos y tiene una mascota diferente a sus vecinos. A partir de las 15 pistas presentadas a continuación, la consigna que hay que responder es: "¿Quién es el dueño del pez?".</p>
-<ol>
-<p>Informacion necesaria para resolverlo</p>
-<li>El británico vive en la casa roja.</li>
-<li> El británico vive en la casa roja.</li>
-<li>El sueco tiene un perro como mascota.</li>
-<li>El danés toma té.</li>
-<li>El noruego vive en la primera casa.</li>
-<li>El alemán fuma Prince.</li>
-<li>La casa verde está inmediatamente a la izquierda de la blanca.</li>
-<li>El dueño de la casa verde bebe café.</li>
-<li>El propietario que fuma Pall Mall cría pájaros.</li>
-<li>El dueño de la casa amarilla fuma Dunhill.</li>
-<li>El hombre que vive en la casa del centro bebe leche.</li>
-<li>El vecino que fuma Blends vive al lado del que tiene un gato.</li>
-<li>El hombre que tiene un caballo vive al lado del que fuma Dunhill.</li>
-<li>El propietario que fuma Bluemaster toma cerveza.</li>
-<li>El vecino que fuma Blends viveal lado del que toma agua.</li>
-<li>El noruego vive al lado de la casa azul.</li>
-</ol>
-    <select name="opcioncorrecta" >
+    <audio src="~/audio/audiofondo.mp3" autoplay="autoplay" loop="loop"></audio>
+    <form method="post" action='@Url.Action("Habitacion","Home")'>
+      <center>
+        <img src="~/img/acertijo3.jpeg" height="400px" width="auto"></center>
+   <p>Entras en una habitación completamente oscura. En la habitación, hay una estufa de gas, una lámpara de aceite y una vela. Tienes un fósforo en tu bolsillo, pero solo tienes suficiente fósforo para encender una de las tres cosas. ¿Qué deberías encender primero?</p>
+    <select name="clave" >
         <option> </option>
-        <option>El britanico</option>
-        <option>El noruego</option>
-        <option>El aleman</option>
-        <option>El sueco</option>
-        <option>El danes</option>
-        <option>El dueño de la casa verde</option>
-        <option>El dueño de la casa amarilla</option>
-        <option>El hombre de la casa del centro</option>
-        <option>El vecino que vive al lado</option>
-        <option>El hombre que tiene un caballo</option>
+        <option>Estufa de gas</option>
+        <option>Vela</option>
+        <option>Lampara de aceite</option>
+        <option>Fosforo</option>
         </select>
         <input type="submit">
+        <input type="hidden" name="sala" value="3">
     </form>
     <br>
-    <button onclick="alert('Viene de un pais europeo')"> Pista 1 </button>
-    <button onclick="alert('Esta fumando')"> Pista 2 </button>
+    <button onclick="alert('No es metalico')"> Pista 1 </button>
+    <button onclick="alert('No depende de otra fuente para iniciarse')"> Pista 2 </button>
+    <button onclick="alert('Es de madera')"> Pista 3 </button>
+    
 </body>
 </html>

@@ -21,14 +21,40 @@ public class HomeController : Controller
         return View();
     }
     public IActionResult Comenzar(){
-        return View("Habitacion1");
+        int Estado;
+        Estado = Escape.GetEstadoJuego();
+        if(Estado != 5)
+        {
+        return View("Habitacion" + Estado.ToString());    
+        }
+        else
+        {
+            return View("Victoria");
+        }
     }
-    public IActionResult Habitacion(int sala, int clave){
-        return View();
+    public IActionResult Habitacion(int sala, string clave){
+        bool v;
+        int salaActual;
+        v = Escape.ResolverSala(sala,clave);
+        if(v){
+            salaActual = Escape.GetEstadoJuego();
+            if(salaActual != 5){
+            return View("Habitacion" + salaActual.ToString());
+            }
+            else{
+                return View("Victoria");
+            }
+        }
+        else{
+            ViewBag.Error = "La respuesta es incorrecta";
+            salaActual = Escape.GetEstadoJuego();
+            return View("Habitacion" + salaActual.ToString());
+        }
+        
     }
     public IActionResult Creditos()
     {
-        return View();
+        return View("Creditos");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
