@@ -19,6 +19,8 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #94211F;
+  color:white;
 }
 .p{
   display: flex;
@@ -28,5 +30,29 @@ body {
   height: 50vh;
   margin: 0;
   font-size: 24px;
+}
+.index{
+  background-image:url(../img/fondoinicio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0px;
+  
+}
+.inicio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 96px;
+  color: white;
+ 
+  font-family: serif;
+  
+}
+.final{
+  background-image:url(../img/celebracion.gif);
 }
 
