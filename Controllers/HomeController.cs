@@ -46,9 +46,9 @@ public class HomeController : Controller
             }
         }
         else{
-            ViewBag.Error = "La respuesta es incorrecta";
             salaActual = Escape.GetEstadoJuego();
             return View("Habitacion" + salaActual.ToString());
+            ViewBag.Error = "La respuesta es incorrecta";
         }
         
     }

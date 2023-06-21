@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\TP05.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\audio\\audiofondo.mp3",
+      "PackagePath": "staticwebassets\\audio\\audiofondo.mp3"
+    },
+    {
+      "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\audio\\victoria.mp3",
+      "PackagePath": "staticwebassets\\audio\\victoria.mp3"
+    },
+    {
       "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -15,6 +23,22 @@
     {
       "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\acertijo2.jpeg",
       "PackagePath": "staticwebassets\\img\\acertijo2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\acertijo3.jpeg",
+      "PackagePath": "staticwebassets\\img\\acertijo3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\acertijofinal.png",
+      "PackagePath": "staticwebassets\\img\\acertijofinal.png"
+    },
+    {
+      "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\celebracion.gif",
+      "PackagePath": "staticwebassets\\img\\celebracion.gif"
+    },
+    {
+      "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.jpg",
+      "PackagePath": "staticwebassets\\img\\fondoinicio.jpg"
     },
     {
       "Id": "C:\\Users\\47496739\\Downloads\\TP05\\wwwroot\\img\\saw.png",
